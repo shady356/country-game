@@ -5,16 +5,17 @@
     xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="svg3157"
+    viewBox="100 0 400 600"
     height="520" width="680" version="1.1" inkscape:version="0.48.4 r9939"
     sodipodi:docname="Blank_map_of_Europe_(with_disputed_regions)[1].svg">
-    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666"
+    <!-- <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666"
       borderopacity="1" objecttolerance="10" gridtolerance="10"
       guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2"
       inkscape:window-width="1366" inkscape:window-height="706"
       id="namedview3085" showgrid="false" inkscape:zoom="11.313709"
       inkscape:cx="538.32993" inkscape:cy="212.63315" inkscape:window-x="-8"
       inkscape:window-y="-8" inkscape:window-maximized="1"
-      inkscape:current-layer="layer1" />
+      inkscape:current-layer="layer1" /> -->
     <desc id="desc6"> A blank Map of Europe. Every country has an id which is
       its ISO-3166-1-ALPHA2 code in lower case.
       Members of the EU have a class=&quot;eu&quot;, countries in europe

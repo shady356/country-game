@@ -2,7 +2,9 @@
   <div>
 
     <h1>Game</h1>
-    <EuropeMap />
+    <div class="map-wrapper">
+      <EuropeMap class="map-wrapper__map" />
+    </div>
   </div>
 </template>
 
@@ -15,5 +17,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+.map-wrapper {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  &__map {
+    width: 100%;
+    background: orange;
+  }
+}
 </style>
