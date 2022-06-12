@@ -5,6 +5,7 @@
     <div class="map-wrapper">
       <EuropeMap class="map-wrapper__map" />
     </div>
+    <input type="text" placeholder="Skriv land">
   </div>
 </template>
 
@@ -26,5 +27,12 @@ export default {
     width: 100%;
     background: orange;
   }
+}
+input {
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #30E3CA;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 </style>
