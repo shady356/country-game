@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+
+@import url('./style/main.scss');
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
