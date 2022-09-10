@@ -407,7 +407,7 @@
 <script>
 export default {
   computed: {
-    countryClasses () {
+    countryClasses() {
       const classes = 'country'
       return classes
     }

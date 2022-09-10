@@ -1,7 +1,5 @@
 <template>
   <div>
-
-    <h1>Game</h1>
     <div class="map-wrapper">
       <EuropeMap class="map-wrapper__map" />
     </div>
