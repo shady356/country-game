@@ -15,9 +15,9 @@
 body {
   margin: 0;
   padding: 0;
-  background: #85aca1;
+  background: #56BEEB;
   color: #fff;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Passion One', cursive;
 }
 ul {
   list-style: none;
