@@ -1,17 +1,14 @@
 <template>
   <div class="home">
     <h1>Kan du alle land i europa?</h1>
-    <Game />
+    <router-link :to="{name: 'Play'}">
+      <button>Play</button>
+    </router-link>
   </div>
 </template>
 
 <script>
-import Game from '@/components/Game.vue'
-
 export default {
-  name: 'Home',
-  components: {
-    Game
-  }
+  name: 'Home'
 }
 </script>
