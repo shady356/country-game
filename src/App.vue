@@ -19,4 +19,9 @@ body {
   color: #fff;
   font-family: 'Karla', sans-serif;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 </style>
