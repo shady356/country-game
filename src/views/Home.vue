@@ -2,13 +2,16 @@
   <div class="home">
     <h1>Kan du alle land i europa?</h1>
     <router-link :to="{name: 'Play'}">
-      <button>Play</button>
+      <BaseButton>Play</BaseButton>
     </router-link>
   </div>
 </template>
 
 <script>
+import BaseButton from '@/components/base/BaseButton'
 export default {
-  name: 'Home'
+  components: {
+    BaseButton
+  }
 }
 </script>
