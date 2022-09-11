@@ -15,8 +15,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #56BEEB;
-  color: #fff;
+  background: #E4F9F5;
+  color: #616B9C;
   font-family: 'Passion One', cursive;
 }
 ul {
