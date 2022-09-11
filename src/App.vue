@@ -24,4 +24,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+p {
+  margin: 0;
+  line-height: 1;
+}
+* {
+  box-sizing: border-box
+}
 </style>
