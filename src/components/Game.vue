@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <div class="map-wrapper">
-      <EuropeMap class="map-wrapper__map" />
+      <EuropeMap class="map-wrapper__map" :mapFlag="mapFlag" />
     </div>
     <BaseTabs class="select-view-tabs">
       <BaseTab :active="isTabSelected(0)" @click="selectTab(0)">
@@ -12,8 +12,8 @@
       </BaseTab>
     </BaseTabs>
     <div class="footer">
-      <BaseInput class="footer__input" />
-      <BaseButton theme="cta" class="footer__button">Svar</BaseButton>
+      <BaseInput class="footer__input" v-model="answerValue" />
+      <BaseButton theme="cta" class="footer__button" @click="submitAnswer()">Svar</BaseButton>
     </div>
   </div>
 </template>
@@ -34,7 +34,9 @@ export default {
   },
   data() {
     return {
-      selectedTabIndex: 0
+      selectedTabIndex: 0,
+      answerValue: '',
+      mapFlag: []
     }
   },
   methods: {
@@ -43,6 +45,9 @@ export default {
     },
     selectTab(index) {
       this.selectedTabIndex = index
+    },
+    submitAnswer() {
+      console.log(this.answerValue)
     }
   }
 }

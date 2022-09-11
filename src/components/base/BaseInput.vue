@@ -3,12 +3,24 @@
     class="base-input"
     type="text"
     placeholder="Skriv land"
+    @input="updateValue"
   />
 </template>
 
 <script>
 export default {
-
+  props: {
+    modelValue: {
+      type: String,
+      required: false,
+      default: ''
+    }
+  },
+  methods: {
+    updateValue(event) {
+      this.$emit('input', event.target.value)
+    }
+  }
 }
 </script>
 
