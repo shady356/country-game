@@ -3,15 +3,22 @@
     <div class="map-wrapper">
       <EuropeMap class="map-wrapper__map" />
     </div>
-    <input type="text" placeholder="Skriv land">
+    <div class="footer">
+      <BaseInput class="footer__input" />
+      <BaseButton theme="cta" class="footer__button">Svar</BaseButton>
+    </div>
   </div>
 </template>
 
 <script>
+import BaseInput from '@/components/base/BaseInput'
 import EuropeMap from '@/components/EuropeMap'
+import BaseButton from '@/components/base/BaseButton.vue'
 export default {
   components: {
-    EuropeMap
+    BaseInput,
+    EuropeMap,
+    BaseButton
   }
 }
 </script>
@@ -26,11 +33,16 @@ export default {
     background: orange;
   }
 }
-input {
-  margin-top: 10px;
-  background: #fff;
-  border: 1px solid #30E3CA;
-  padding: 10px 20px;
-  border-radius: 4px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--size-2);
+
+  &__input {
+    width: 80%;
+  }
+  &__button {
+    width: 20%;
+  }
 }
 </style>

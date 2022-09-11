@@ -5,7 +5,7 @@
       <li class="header__list-item"><div>riktige</div></li>
       <li class="header__list-item"><div>tid</div></li>
     </ul>
-    <BaseButton class="header__button">
+    <BaseButton class="header__button" theme="cta">
       Ferdig
     </BaseButton>
   </header>
@@ -32,6 +32,9 @@ export default {
   &__list {
     display: flex;
     gap: var(--size-4);
+  }
+  &__button {
+    width: 25%;
   }
 }
 </style>
