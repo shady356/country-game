@@ -13,14 +13,14 @@ export default {
     modelValue: {
       type: String,
       required: false,
-      default: ''
-    }
+      default: '',
+    },
   },
   methods: {
     updateValue(event) {
       this.$emit('input', event.target.value)
-    }
-  }
+    },
+  },
 }
 </script>
 

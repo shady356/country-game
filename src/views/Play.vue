@@ -1,9 +1,9 @@
 <template>
-  <div v-if="mapLoaded">
-    <Header />
+  <div :key="cacheBust">
+    <Header :mapFlag="mapFlag" />
     <GameMap :mapFlag="mapFlag" />
     <div class="footer">
-      <BaseInput class="footer__input" v-model="answerValue" />
+      <BaseInput class="footer__input" v-model="answerValue" ref="input"/>
       <BaseButton
         theme="cta"
         class="footer__button"
@@ -26,13 +26,14 @@ export default {
     GameMap,
     Header,
     BaseInput,
-    BaseButton
+    BaseButton,
   },
   data() {
     return {
       answerValue: '',
-      mapFlag: null,
-      mapLoaded: false
+      mapFlag: [],
+      mapLoaded: false,
+      cacheBust: 0,
     }
   },
   created() {
@@ -48,9 +49,9 @@ export default {
       const country = this.isAnswerCorrect(this.answerValue)
       if (country) {
         const index = this.findCountryIndexByCountryCode(country.code)
-        console.log(index)
         this.mapFlag[index].found = true
-        console.log(this.mapFlag[index])
+        this.answerValue = ''
+        this.cacheBust++
       } else {
         console.log('wrong')
       }
@@ -62,8 +63,8 @@ export default {
     },
     findCountryIndexByCountryCode(countryCode) {
       return this.mapFlag.findIndex(country => country.code === countryCode)
-    }
-  }
+    },
+  },
 }
 </script>
 

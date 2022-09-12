@@ -21,8 +21,8 @@
 import BaseButton from '@/components/base/BaseButton'
 export default {
   components: {
-    BaseButton
-  }
+    BaseButton,
+  },
 }
 </script>
 

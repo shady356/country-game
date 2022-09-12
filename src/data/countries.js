@@ -4,1097 +4,1097 @@ export function countries() {
       code: 'AD',
       name: 'Andorra',
       accepted: 'andorra',
-      group: 'europe'
+      group: 'europe',
     },
     {
       code: 'AE',
       name: 'De forente arabiske emirater',
-      accepted: 'forente arabiske emirater'
+      accepted: 'forente arabiske emirater',
     },
     {
       code: 'AF',
-      name: 'Afghanistan'
+      name: 'Afghanistan',
     },
     {
       code: 'AG',
-      name: 'Antigua og Barbuda'
+      name: 'Antigua og Barbuda',
     },
     {
       code: 'AI',
-      name: 'Anguilla'
+      name: 'Anguilla',
     },
     {
       code: 'AL',
       name: 'Albania',
       group: 'europe',
-      accepted: 'albania'
+      accepted: 'albania',
     },
     {
       code: 'AM',
-      name: 'Armenia'
+      name: 'Armenia',
     },
     {
       code: 'AO',
-      name: 'Angola'
+      name: 'Angola',
     },
     {
       code: 'AQ',
-      name: 'Antarktis'
+      name: 'Antarktis',
     },
     {
       code: 'AR',
-      name: 'Argentina'
+      name: 'Argentina',
     },
     {
       code: 'AS',
-      name: 'Amerikansk Samoa'
+      name: 'Amerikansk Samoa',
     },
     {
       code: 'AT',
       name: 'Østerrike',
       group: 'europe',
-      accepted: 'østerrike'
+      accepted: 'østerrike',
     },
     {
       code: 'AU',
-      name: 'Australia'
+      name: 'Australia',
     },
     {
       code: 'AW',
-      name: 'Aruba'
+      name: 'Aruba',
     },
     {
       code: 'AX',
-      name: '�land'
+      name: '�land',
     },
     {
       code: 'AZ',
-      name: 'Aserbajdsjan'
+      name: 'Aserbajdsjan',
     },
     {
       code: 'BA',
       name: 'Bosnia-Hercegovina',
       group: 'europe',
-      accepted: ['bosnia-hercegovina', 'bosnia hercegovina']
+      accepted: ['bosnia-hercegovina', 'bosnia hercegovina'],
     },
     {
       code: 'BB',
-      name: 'Barbados'
+      name: 'Barbados',
     },
     {
       code: 'BD',
-      name: 'Bangladesh'
+      name: 'Bangladesh',
     },
     {
       code: 'BE',
       name: 'Belgia',
       group: 'europe',
-      accepted: ['belgia']
+      accepted: ['belgia'],
     },
     {
       code: 'BF',
-      name: 'Burkina Faso'
+      name: 'Burkina Faso',
     },
     {
       code: 'BG',
       name: 'Bulgaria',
       group: 'europe',
-      accepted: ['bulgaria']
+      accepted: ['bulgaria'],
     },
     {
       code: 'BH',
-      name: 'Bahrain'
+      name: 'Bahrain',
     },
     {
       code: 'BI',
-      name: 'Burundi'
+      name: 'Burundi',
     },
     {
       code: 'BJ',
-      name: 'Benin'
+      name: 'Benin',
     },
     {
       code: 'BL',
-      name: 'Saint Barthelemy'
+      name: 'Saint Barthelemy',
     },
     {
       code: 'BM',
-      name: 'Bermuda'
+      name: 'Bermuda',
     },
     {
       code: 'BN',
-      name: 'Brunei Darussalam'
+      name: 'Brunei Darussalam',
     },
     {
       code: 'BO',
-      name: 'Bolivia'
+      name: 'Bolivia',
     },
     {
       code: 'BQ',
-      name: 'Bonaire, Sint Eustatius og Saba'
+      name: 'Bonaire, Sint Eustatius og Saba',
     },
     {
       code: 'BR',
-      name: 'Brasil'
+      name: 'Brasil',
     },
     {
       code: 'BS',
-      name: 'Bahamas'
+      name: 'Bahamas',
     },
     {
       code: 'BT',
-      name: 'Bhutan'
+      name: 'Bhutan',
     },
     {
       code: 'BV',
-      name: 'Bouvet�ya'
+      name: 'Bouvet�ya',
     },
     {
       code: 'BW',
-      name: 'Botswana'
+      name: 'Botswana',
     },
     {
       code: 'BY',
       name: 'Hviterussland',
       group: 'europe',
-      accepted: ['hviterussland']
+      accepted: ['hviterussland'],
     },
     {
       code: 'BZ',
-      name: 'Belize'
+      name: 'Belize',
     },
     {
       code: 'CA',
-      name: 'Canada'
+      name: 'Canada',
     },
     {
       code: 'CC',
-      name: 'Kokos�yene (Keeling�yene)'
+      name: 'Kokos�yene (Keeling�yene)',
     },
     {
       code: 'CD',
-      name: 'Kongo'
+      name: 'Kongo',
     },
     {
       code: 'CF',
-      name: 'Den sentralafrikanske republikk'
+      name: 'Den sentralafrikanske republikk',
     },
     {
       code: 'CG',
-      name: 'Kongo-Brazzaville'
+      name: 'Kongo-Brazzaville',
     },
     {
       code: 'CH',
       name: 'Sveits',
       group: 'europe',
-      accepted: ['sveits']
+      accepted: ['sveits'],
     },
     {
       code: 'CI',
-      name: 'Elfenbenskysten'
+      name: 'Elfenbenskysten',
     },
     {
       code: 'CK',
-      name: 'Cook�yene'
+      name: 'Cook�yene',
     },
     {
       code: 'CL',
-      name: 'Chile'
+      name: 'Chile',
     },
     {
       code: 'CM',
-      name: 'Kamerun'
+      name: 'Kamerun',
     },
     {
       code: 'CN',
-      name: 'Kina'
+      name: 'Kina',
     },
     {
       code: 'CO',
-      name: 'Colombia'
+      name: 'Colombia',
     },
     {
       code: 'CR',
-      name: 'Costa Rica'
+      name: 'Costa Rica',
     },
     {
       code: 'CU',
-      name: 'Cuba'
+      name: 'Cuba',
     },
     {
       code: 'CV',
-      name: 'Kapp Verde'
+      name: 'Kapp Verde',
     },
     {
       code: 'CW',
-      name: 'Curacao'
+      name: 'Curacao',
     },
     {
       code: 'CX',
-      name: 'Christmas�ya'
+      name: 'Christmas�ya',
     },
     {
       code: 'CY',
-      name: 'Kypros'
+      name: 'Kypros',
     },
     {
       code: 'CZ',
       name: 'Tsjekkia',
       group: 'europe',
-      accepted: ['tsjekkia']
+      accepted: ['tsjekkia'],
     },
     {
       code: 'DE',
       name: 'Tyskland',
       group: 'europe',
-      accepted: ['tyskland']
+      accepted: ['tyskland'],
     },
     {
       code: 'DJ',
-      name: 'Djibouti'
+      name: 'Djibouti',
     },
     {
       code: 'DK',
       name: 'Danmark',
       group: 'europe',
-      accepted: ['danmark']
+      accepted: ['danmark'],
     },
     {
       code: 'DM',
-      name: 'Dominica'
+      name: 'Dominica',
     },
     {
       code: 'DO',
-      name: 'Den dominikanske republikk'
+      name: 'Den dominikanske republikk',
     },
     {
       code: 'DZ',
-      name: 'Algerie'
+      name: 'Algerie',
     },
     {
       code: 'EC',
-      name: 'Ecuador'
+      name: 'Ecuador',
     },
     {
       code: 'EE',
       name: 'Estland',
       group: 'europe',
-      accepted: ['estland']
+      accepted: ['estland'],
     },
     {
       code: 'EG',
-      name: 'Egypt'
+      name: 'Egypt',
     },
     {
       code: 'EH',
-      name: 'Vest-Sahara'
+      name: 'Vest-Sahara',
     },
     {
       code: 'ER',
-      name: 'Eritrea'
+      name: 'Eritrea',
     },
     {
       code: 'ES',
       name: 'Spania',
       group: 'europe',
-      accepted: ['spania']
+      accepted: ['spania'],
     },
     {
       code: 'ET',
-      name: 'Etiopia'
+      name: 'Etiopia',
     },
     {
       code: 'FI',
       name: 'Finland',
       group: 'europe',
-      accepted: ['finland']
+      accepted: ['finland'],
     },
     {
       code: 'FJ',
-      name: 'Fiji'
+      name: 'Fiji',
     },
     {
       code: 'FK',
-      name: 'Falklands�yene (Malvinas)'
+      name: 'Falklands�yene (Malvinas)',
     },
     {
       code: 'FM',
-      name: 'Mikronesiaf�derasjonen'
+      name: 'Mikronesiaf�derasjonen',
     },
     {
       code: 'FO',
-      name: 'Færøyene'
+      name: 'Færøyene',
     },
     {
       code: 'FR',
       name: 'Frankrike',
       group: 'europe',
-      accepted: ['frankrike']
+      accepted: ['frankrike'],
     },
     {
       code: 'GA',
-      name: 'Gabon'
+      name: 'Gabon',
     },
     {
       code: 'GB',
       name: 'Storbritannia',
       group: 'europe',
-      accepted: ['storbritannia']
+      accepted: ['storbritannia'],
     },
     {
       code: 'GD',
-      name: 'Grenada'
+      name: 'Grenada',
     },
     {
       code: 'GE',
-      name: 'Georgia'
+      name: 'Georgia',
     },
     {
       code: 'GF',
-      name: 'Fransk Guyana'
+      name: 'Fransk Guyana',
     },
     {
       code: 'GG',
-      name: 'Guernsey'
+      name: 'Guernsey',
     },
     {
       code: 'GH',
-      name: 'Ghana'
+      name: 'Ghana',
     },
     {
       code: 'GI',
-      name: 'Gibraltar'
+      name: 'Gibraltar',
     },
     {
       code: 'GL',
       name: 'Grønland',
-      group: 'n/a' // part of Denmark
+      group: 'n/a', // part of Denmark
     },
     {
       code: 'GM',
-      name: 'Gambia'
+      name: 'Gambia',
     },
     {
       code: 'GN',
-      name: 'Guinea'
+      name: 'Guinea',
     },
     {
       code: 'GP',
-      name: 'Guadeloupe'
+      name: 'Guadeloupe',
     },
     {
       code: 'GQ',
-      name: 'Ekvatorial-Guinea'
+      name: 'Ekvatorial-Guinea',
     },
     {
       code: 'GR',
       name: 'Hellas',
       group: 'europe',
-      accepted: ['hellas']
+      accepted: ['hellas'],
     },
     {
       code: 'GS',
-      name: 'S�r-Georgia/S�r-Sandwich�yene'
+      name: 'S�r-Georgia/S�r-Sandwich�yene',
     },
     {
       code: 'GT',
-      name: 'Guatemala'
+      name: 'Guatemala',
     },
     {
       code: 'GU',
-      name: 'Guam'
+      name: 'Guam',
     },
     {
       code: 'GW',
-      name: 'Guinea-Bissau'
+      name: 'Guinea-Bissau',
     },
     {
       code: 'GY',
-      name: 'Guyana'
+      name: 'Guyana',
     },
     {
       code: 'HK',
-      name: 'Hongkong'
+      name: 'Hongkong',
     },
     {
       code: 'HM',
-      name: 'Heard- og McDonald�yene'
+      name: 'Heard- og McDonald�yene',
     },
     {
       code: 'HN',
-      name: 'Honduras'
+      name: 'Honduras',
     },
     {
       code: 'HR',
       name: 'Kroatia',
       group: 'europe',
-      accepted: ['kroatia']
+      accepted: ['kroatia'],
     },
     {
       code: 'HT',
-      name: 'Haiti'
+      name: 'Haiti',
     },
     {
       code: 'HU',
       name: 'Ungarn',
       group: 'europe',
-      accepted: ['ungarn']
+      accepted: ['ungarn'],
     },
     {
       code: 'ID',
-      name: 'Indonesia'
+      name: 'Indonesia',
     },
     {
       code: 'IE',
       name: 'Irland',
       group: 'europe',
-      accepted: ['irland']
+      accepted: ['irland'],
     },
     {
       code: 'IL',
-      name: 'Israel'
+      name: 'Israel',
     },
     {
       code: 'IM',
-      name: 'Isle of Man'
+      name: 'Isle of Man',
     },
     {
       code: 'IN',
-      name: 'India'
+      name: 'India',
     },
     {
       code: 'IO',
-      name: 'Det Britiske terr. i Indiahavet'
+      name: 'Det Britiske terr. i Indiahavet',
     },
     {
       code: 'IQ',
-      name: 'Irak'
+      name: 'Irak',
     },
     {
       code: 'IR',
-      name: 'Iran'
+      name: 'Iran',
     },
     {
       code: 'IS',
       name: 'Island',
       group: 'europe',
-      accepted: ['island']
+      accepted: ['island'],
     },
     {
       code: 'IT',
       name: 'Italia',
       group: 'europe',
-      accepted: ['italia']
+      accepted: ['italia'],
     },
     {
       code: 'JE',
-      name: 'Jersey'
+      name: 'Jersey',
     },
     {
       code: 'JM',
-      name: 'Jamaica'
+      name: 'Jamaica',
     },
     {
       code: 'JO',
-      name: 'Jordan'
+      name: 'Jordan',
     },
     {
       code: 'JP',
-      name: 'Japan'
+      name: 'Japan',
     },
     {
       code: 'KE',
-      name: 'Kenya'
+      name: 'Kenya',
     },
     {
       code: 'KG',
-      name: 'Kirgisistan'
+      name: 'Kirgisistan',
     },
     {
       code: 'KH',
-      name: 'Kambodsja'
+      name: 'Kambodsja',
     },
     {
       code: 'KI',
-      name: 'Kiribati'
+      name: 'Kiribati',
     },
     {
       code: 'KM',
-      name: 'Komorene'
+      name: 'Komorene',
     },
     {
       code: 'KN',
-      name: 'Saint Kitts og Nevis'
+      name: 'Saint Kitts og Nevis',
     },
     {
       code: 'KP',
-      name: 'Nord-Korea'
+      name: 'Nord-Korea',
     },
     {
       code: 'KR',
-      name: 'S�r-Korea'
+      name: 'S�r-Korea',
     },
     {
       code: 'KW',
-      name: 'Kuwait'
+      name: 'Kuwait',
     },
     {
       code: 'KY',
-      name: 'Cayman�yene'
+      name: 'Cayman�yene',
     },
     {
       code: 'KZ',
-      name: 'Kasakhstan'
+      name: 'Kasakhstan',
     },
     {
       code: 'LA',
-      name: 'Laos'
+      name: 'Laos',
     },
     {
       code: 'LB',
-      name: 'Libanon'
+      name: 'Libanon',
     },
     {
       code: 'LC',
-      name: 'Saint Lucia'
+      name: 'Saint Lucia',
     },
     {
       code: 'LI',
       name: 'Liechtenstein',
       group: 'europe',
-      accepted: ['liechtenstein']
+      accepted: ['liechtenstein'],
     },
     {
       code: 'LK',
-      name: 'Sri Lanka'
+      name: 'Sri Lanka',
     },
     {
       code: 'LR',
-      name: 'Liberia'
+      name: 'Liberia',
     },
     {
       code: 'LS',
-      name: 'Lesotho'
+      name: 'Lesotho',
     },
     {
       code: 'LT',
       name: 'Litauen',
       group: 'europe',
-      accepted: ['litauen']
+      accepted: ['litauen'],
     },
     {
       code: 'LU',
       name: 'Luxembourg',
       group: 'europe',
-      accepted: ['luxembourg']
+      accepted: ['luxembourg'],
     },
     {
       code: 'LV',
       name: 'Latvia',
       group: 'europe',
-      accepted: ['latvia']
+      accepted: ['latvia'],
     },
     {
       code: 'LY',
-      name: 'Libya'
+      name: 'Libya',
     },
     {
       code: 'MA',
-      name: 'Marokko'
+      name: 'Marokko',
     },
     {
       code: 'MC',
       name: 'Monaco',
       group: 'europe',
-      accepted: ['monaco']
+      accepted: ['monaco'],
     },
     {
       code: 'MD',
       name: 'Moldova',
       group: 'europe',
-      accepted: ['moldova']
+      accepted: ['moldova'],
     },
     {
       code: 'ME',
       name: 'Montenegro',
       group: 'europe',
-      accepted: ['montenegro']
+      accepted: ['montenegro'],
     },
     {
       code: 'MF',
-      name: 'Saint-Martin, FR'
+      name: 'Saint-Martin, FR',
     },
     {
       code: 'MG',
-      name: 'Madagaskar'
+      name: 'Madagaskar',
     },
     {
       code: 'MH',
-      name: 'Marshall�yene'
+      name: 'Marshall�yene',
     },
     {
       code: 'MK',
       name: 'Nord-Makedonia',
       group: 'europe',
-      accepted: ['nord-makedonia', 'nord makedonia']
+      accepted: ['nord-makedonia', 'nord makedonia'],
     },
     {
       code: 'ML',
-      name: 'Mali'
+      name: 'Mali',
     },
     {
       code: 'MM',
-      name: 'Myanmar/Burma'
+      name: 'Myanmar/Burma',
     },
     {
       code: 'MN',
-      name: 'Mongolia'
+      name: 'Mongolia',
     },
     {
       code: 'MO',
-      name: 'Macao'
+      name: 'Macao',
     },
     {
       code: 'MP',
-      name: 'Nord-Marianene'
+      name: 'Nord-Marianene',
     },
     {
       code: 'MQ',
-      name: 'Martinique'
+      name: 'Martinique',
     },
     {
       code: 'MR',
-      name: 'Mauritania'
+      name: 'Mauritania',
     },
     {
       code: 'MS',
-      name: 'Montserrat'
+      name: 'Montserrat',
     },
     {
       code: 'MT',
       name: 'Malta',
       group: 'europe',
-      accepted: ['malta']
+      accepted: ['malta'],
     },
     {
       code: 'MU',
-      name: 'Mauritius'
+      name: 'Mauritius',
     },
     {
       code: 'MV',
-      name: 'Maldivene'
+      name: 'Maldivene',
     },
     {
       code: 'MW',
-      name: 'Malawi'
+      name: 'Malawi',
     },
     {
       code: 'MX',
-      name: 'Mexico'
+      name: 'Mexico',
     },
     {
       code: 'MY',
-      name: 'Malaysia'
+      name: 'Malaysia',
     },
     {
       code: 'MZ',
-      name: 'Mosambik'
+      name: 'Mosambik',
     },
     {
       code: 'NA',
-      name: 'Namibia'
+      name: 'Namibia',
     },
     {
       code: 'NC',
-      name: 'Ny-Caledonia'
+      name: 'Ny-Caledonia',
     },
     {
       code: 'NE',
-      name: 'Niger'
+      name: 'Niger',
     },
     {
       code: 'NF',
-      name: 'Norfolk�ya'
+      name: 'Norfolk�ya',
     },
     {
       code: 'NG',
-      name: 'Nigeria'
+      name: 'Nigeria',
     },
     {
       code: 'NI',
-      name: 'Nicaragua'
+      name: 'Nicaragua',
     },
     {
       code: 'NL',
       name: 'Nederland',
       group: 'europe',
-      accepted: ['nederland']
+      accepted: ['nederland'],
     },
     {
       code: 'NO',
       name: 'Norge',
       group: 'europe',
-      accepted: ['norge']
+      accepted: ['norge'],
     },
     {
       code: 'NP',
-      name: 'Nepal'
+      name: 'Nepal',
     },
     {
       code: 'NR',
-      name: 'Nauru'
+      name: 'Nauru',
     },
     {
       code: 'NU',
-      name: 'Niue'
+      name: 'Niue',
     },
     {
       code: 'NZ',
-      name: 'New Zealand'
+      name: 'New Zealand',
     },
     {
       code: 'OM',
-      name: 'Oman'
+      name: 'Oman',
     },
     {
       code: 'PA',
-      name: 'Panama'
+      name: 'Panama',
     },
     {
       code: 'PE',
-      name: 'Peru'
+      name: 'Peru',
     },
     {
       code: 'PF',
-      name: 'Fransk Polynesia'
+      name: 'Fransk Polynesia',
     },
     {
       code: 'PG',
-      name: 'Papua Ny-Guinea'
+      name: 'Papua Ny-Guinea',
     },
     {
       code: 'PH',
-      name: 'Filippinene'
+      name: 'Filippinene',
     },
     {
       code: 'PK',
-      name: 'Pakistan'
+      name: 'Pakistan',
     },
     {
       code: 'PL',
       name: 'Polen',
       group: 'europe',
-      accepted: ['polen']
+      accepted: ['polen'],
     },
     {
       code: 'PM',
-      name: 'Saint Pierre og Miquelon'
+      name: 'Saint Pierre og Miquelon',
     },
     {
       code: 'PN',
-      name: 'Pitcairn'
+      name: 'Pitcairn',
     },
     {
       code: 'PR',
-      name: 'Puerto Rico'
+      name: 'Puerto Rico',
     },
     {
       code: 'PS',
-      name: 'Palestina'
+      name: 'Palestina',
     },
     {
       code: 'PT',
       name: 'Portugal',
       group: 'europe',
-      accepted: ['portugal']
+      accepted: ['portugal'],
     },
     {
       code: 'PW',
-      name: 'Palau'
+      name: 'Palau',
     },
     {
       code: 'PY',
-      name: 'Paraguay'
+      name: 'Paraguay',
     },
     {
       code: 'QA',
-      name: 'Qatar'
+      name: 'Qatar',
     },
     {
       code: 'RE',
-      name: 'Reunion'
+      name: 'Reunion',
     },
     {
       code: 'RO',
       name: 'Romania',
       group: 'europe',
-      accepted: ['romania']
+      accepted: ['romania'],
     },
     {
       code: 'RS',
       name: 'Serbia',
       group: 'europe',
-      accepted: ['serbia']
+      accepted: ['serbia'],
     },
     {
       code: 'RU',
       name: 'Russland',
       group: 'europe',
-      accepted: ['russland']
+      accepted: ['russland'],
     },
     {
       code: 'RW',
-      name: 'Rwanda'
+      name: 'Rwanda',
     },
     {
       code: 'SA',
-      name: 'Saudi-Arabia'
+      name: 'Saudi-Arabia',
     },
     {
       code: 'SB',
-      name: 'Salomon�yene'
+      name: 'Salomon�yene',
     },
     {
       code: 'SC',
-      name: 'Seychellene'
+      name: 'Seychellene',
     },
     {
       code: 'SD',
-      name: 'Sudan'
+      name: 'Sudan',
     },
     {
       code: 'SE',
       name: 'Sverige',
       group: 'europe',
-      accepted: ['sverige']
+      accepted: ['sverige'],
     },
     {
       code: 'SG',
-      name: 'Singapore'
+      name: 'Singapore',
     },
     {
       code: 'SH',
-      name: 'St. Helena'
+      name: 'St. Helena',
     },
     {
       code: 'SI',
       name: 'Slovenia',
       group: 'europe',
-      accepted: ['slovenia']
+      accepted: ['slovenia'],
     },
     {
       code: 'SK',
       name: 'Slovakia',
       group: 'europe',
-      accepted: ['slovakia']
+      accepted: ['slovakia'],
     },
     {
       code: 'SL',
-      name: 'Sierra Leone'
+      name: 'Sierra Leone',
     },
     {
       code: 'SM',
       name: 'San Marino',
       group: 'europe',
-      accepted: ['san marino']
+      accepted: ['san marino'],
     },
     {
       code: 'SN',
-      name: 'Senegal'
+      name: 'Senegal',
     },
     {
       code: 'SO',
-      name: 'Somalia'
+      name: 'Somalia',
     },
     {
       code: 'SR',
-      name: 'Surinam'
+      name: 'Surinam',
     },
     {
       code: 'SS',
-      name: 'S�r-Sudan'
+      name: 'S�r-Sudan',
     },
     {
       code: 'ST',
-      name: 'Sao Tome og Principe'
+      name: 'Sao Tome og Principe',
     },
     {
       code: 'SV',
-      name: 'El Salvador'
+      name: 'El Salvador',
     },
     {
       code: 'SX',
-      name: 'Sint Marteen, NL'
+      name: 'Sint Marteen, NL',
     },
     {
       code: 'SY',
-      name: 'Syria'
+      name: 'Syria',
     },
     {
       code: 'SZ',
-      name: 'Eswatini'
+      name: 'Eswatini',
     },
     {
       code: 'TC',
-      name: 'Turks- og Caicos�yene'
+      name: 'Turks- og Caicos�yene',
     },
     {
       code: 'TD',
-      name: 'Tsjad'
+      name: 'Tsjad',
     },
     {
       code: 'TF',
-      name: 'Franske S�rlige Territorier'
+      name: 'Franske S�rlige Territorier',
     },
     {
       code: 'TG',
-      name: 'Togo'
+      name: 'Togo',
     },
     {
       code: 'TH',
-      name: 'Thailand'
+      name: 'Thailand',
     },
     {
       code: 'TJ',
-      name: 'Tadsjikistan'
+      name: 'Tadsjikistan',
     },
     {
       code: 'TK',
-      name: 'Tokelau'
+      name: 'Tokelau',
     },
     {
       code: 'TL',
-      name: '�st-Timor'
+      name: '�st-Timor',
     },
     {
       code: 'TM',
-      name: 'Turkmenistan'
+      name: 'Turkmenistan',
     },
     {
       code: 'TN',
-      name: 'Tunisia'
+      name: 'Tunisia',
     },
     {
       code: 'TO',
-      name: 'Tonga'
+      name: 'Tonga',
     },
     {
       code: 'TR',
       name: 'Tyrkia',
-      group: 'n/a'
+      group: 'n/a',
     },
     {
       code: 'TT',
-      name: 'Trinidad og Tobago'
+      name: 'Trinidad og Tobago',
     },
     {
       code: 'TV',
-      name: 'Tuvalu'
+      name: 'Tuvalu',
     },
     {
       code: 'TW',
-      name: 'Taiwan'
+      name: 'Taiwan',
     },
     {
       code: 'TZ',
-      name: 'Tanzania'
+      name: 'Tanzania',
     },
     {
       code: 'UA',
       name: 'Ukraina',
       group: 'europe',
-      accepted: 'ukraina'
+      accepted: 'ukraina',
     },
     {
       code: 'UG',
-      name: 'Uganda'
+      name: 'Uganda',
     },
     {
       code: 'UM',
-      name: 'USAs ytre sm��yer'
+      name: 'USAs ytre sm��yer',
     },
     {
       code: 'US',
-      name: 'USA'
+      name: 'USA',
     },
     {
       code: 'UY',
-      name: 'Uruguay'
+      name: 'Uruguay',
     },
     {
       code: 'UZ',
-      name: 'Usbekistan'
+      name: 'Usbekistan',
     },
     {
       code: 'VA',
       name: 'Vatikanstaten',
       group: 'europe',
-      accepted: 'vatikanstaten'
+      accepted: 'vatikanstaten',
     },
     {
       code: 'VC',
-      name: 'Saint Vincent og Grenadinene'
+      name: 'Saint Vincent og Grenadinene',
     },
     {
       code: 'VE',
-      name: 'Venezuela'
+      name: 'Venezuela',
     },
     {
       code: 'VG',
-      name: 'Jomfru�yene, Britisk'
+      name: 'Jomfru�yene, Britisk',
     },
     {
       code: 'VI',
-      name: 'Jomfru�yene, US'
+      name: 'Jomfru�yene, US',
     },
     {
       code: 'VN',
-      name: 'Vietnam'
+      name: 'Vietnam',
     },
     {
       code: 'VU',
-      name: 'Vanuatu'
+      name: 'Vanuatu',
     },
     {
       code: 'WF',
-      name: 'Wallis- og Futuna�yene'
+      name: 'Wallis- og Futuna�yene',
     },
     {
       code: 'WS',
-      name: 'Samoa'
+      name: 'Samoa',
     },
     {
       code: 'XB',
-      name: 'Kanari�yene'
+      name: 'Kanari�yene',
     },
     {
       code: 'XC',
-      name: 'Ceuta og Melilla'
+      name: 'Ceuta og Melilla',
     },
     {
       code: 'XK',
       name: 'Kosovo',
-      group: 'n/a'
+      group: 'n/a',
     },
     {
       code: 'YE',
-      name: 'Jemen'
+      name: 'Jemen',
     },
     {
       code: 'YT',
-      name: 'Mayotte'
+      name: 'Mayotte',
     },
     {
       code: 'ZA',
-      name: 'S�r-Afrika'
+      name: 'S�r-Afrika',
     },
     {
       code: 'ZM',
-      name: 'Zambia'
+      name: 'Zambia',
     },
     {
       code: 'ZW',
-      name: 'Zimbabwe'
-    }
+      name: 'Zimbabwe',
+    },
   ]
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="game">
     <div class="map-wrapper">
-      <EuropeMap class="map-wrapper__map" :mapFlag="mapFlag" />
+      <EuropeMap class="map-wrapper__map" :countryCodeMap="countryCodeMap" />
     </div>
     <BaseTabs class="select-view-tabs">
       <BaseTab :active="isTabSelected(0)" @click="selectTab(0)">
@@ -23,18 +23,24 @@ export default {
   components: {
     EuropeMap,
     BaseTabs,
-    BaseTab
+    BaseTab,
   },
   props: {
     mapFlag: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
   data() {
     return {
-      selectedTabIndex: 0
+      selectedTabIndex: 0,
     }
+  },
+  computed: {
+    countryCodeMap() {
+      const mapped = this.mapFlag.map(country => ({ [country.code]: country.found }))
+      return Object.assign({}, ...mapped)
+    },
   },
   methods: {
     isTabSelected(index) {
@@ -42,8 +48,8 @@ export default {
     },
     selectTab(index) {
       this.selectedTabIndex = index
-    }
-  }
+    },
+  },
 }
 </script>
 

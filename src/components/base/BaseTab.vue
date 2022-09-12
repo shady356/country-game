@@ -8,14 +8,14 @@ export default {
     active: {
       type: Boolean,
       reqiured: false,
-      default: false
-    }
+      default: false,
+    },
   },
   methods: {
     click() {
       this.$emit('click')
-    }
-  }
+    },
+  },
 }
 </script>
 

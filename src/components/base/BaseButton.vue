@@ -8,18 +8,18 @@ export default {
     size: {
       type: String,
       required: false,
-      default: 'medium'
+      default: 'medium',
     },
     shape: {
       type: String,
       required: false,
-      default: 'round'
+      default: 'round',
     },
     theme: {
       type: String,
       required: false,
-      default: 'standard'
-    }
+      default: 'standard',
+    },
   },
   computed: {
     sizeStyle() {
@@ -30,13 +30,13 @@ export default {
     },
     themeStyle() {
       return `base-button--theme-${this.theme}`
-    }
+    },
   },
   methods: {
     click() {
       this.$emit('click')
-    }
-  }
+    },
+  },
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <ul class="header__list">
-      <li class="header__list-item"><div>poeng</div></li>
+      <li class="header__list-item"><div>POENG</div>{{correct}}/{{mapFlag.length}}</li>
       <li class="header__list-item"><div>riktige</div></li>
       <li class="header__list-item"><div>tid</div></li>
     </ul>
@@ -15,8 +15,20 @@
 import BaseButton from '@/components/base/BaseButton.vue'
 export default {
   components: {
-    BaseButton
-  }
+    BaseButton,
+  },
+  props: {
+    mapFlag: {
+      type: Array,
+      required: true,
+    },
+  },
+  computed: {
+    correct() {
+      const correct = this.mapFlag.filter(country => country.found)
+      return correct.length
+    },
+  },
 }
 </script>
 
