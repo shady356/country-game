@@ -11,32 +11,29 @@
         Liste
       </BaseTab>
     </BaseTabs>
-    <div class="footer">
-      <BaseInput class="footer__input" v-model="answerValue" />
-      <BaseButton theme="cta" class="footer__button" @click="submitAnswer()">Svar</BaseButton>
-    </div>
   </div>
 </template>
 
 <script>
-import BaseInput from '@/components/base/BaseInput'
 import BaseTabs from '@/components/base/BaseTabs'
 import BaseTab from '@/components/base/BaseTab'
 import EuropeMap from '@/components/EuropeMap'
-import BaseButton from '@/components/base/BaseButton.vue'
+
 export default {
   components: {
-    BaseInput,
     EuropeMap,
-    BaseButton,
     BaseTabs,
     BaseTab
   },
+  props: {
+    mapFlag: {
+      type: Array,
+      required: true
+    }
+  },
   data() {
     return {
-      selectedTabIndex: 0,
-      answerValue: '',
-      mapFlag: []
+      selectedTabIndex: 0
     }
   },
   methods: {
@@ -45,9 +42,6 @@ export default {
     },
     selectTab(index) {
       this.selectedTabIndex = index
-    },
-    submitAnswer() {
-      console.log(this.answerValue)
     }
   }
 }
@@ -70,20 +64,6 @@ export default {
   }
   .select-view-tabs {
     width: fit-content;
-  }
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: var(--size-2);
-    padding: 0 var(--size-4);
-
-    &__input {
-      width: 80%;
-    }
-    &__button {
-      width: 20%;
-    }
   }
 }
 </style>
