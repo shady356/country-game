@@ -18,6 +18,7 @@ body {
   background: #E4F9F5;
   color: #616B9C;
   font-family: 'Passion One', cursive;
+  overscroll-behavior: contain;
 }
 ul {
   list-style: none;
