@@ -1,4 +1,5 @@
 # country-game
+https://shady356.github.io/country-game/
 
 ## Project setup
 ```
