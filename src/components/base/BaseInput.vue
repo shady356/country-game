@@ -3,6 +3,8 @@
     class="base-input"
     type="text"
     placeholder="Skriv land"
+    spellcheck='false'
+    autocomplete="false"
     @input="updateValue"
   />
 </template>
@@ -31,5 +33,8 @@ export default {
   border-radius: var(--size-3);
   padding: var(--size-3) var(--size-5);
   font-family: 'Passion One', cursive;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 </style>

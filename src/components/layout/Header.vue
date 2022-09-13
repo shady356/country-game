@@ -1,9 +1,8 @@
 <template>
   <header class="header">
     <ul class="header__list">
-      <li class="header__list-item"><div>POENG</div>{{correct}}/{{mapFlag.length}}</li>
-      <li class="header__list-item"><div>riktige</div></li>
-      <li class="header__list-item"><div>tid</div></li>
+      <li class="header__list-item"><div>POENG</div>{{correct * 100}}</li>
+      <li class="header__list-item"><div>RIKTIGE</div>{{correct}}/{{mapFlag.length}}</li>
     </ul>
     <BaseButton class="header__button" theme="cta">
       Ferdig
@@ -34,6 +33,8 @@ export default {
 
 <style lang="scss" scoped>
 .header {
+  position: sticky;
+  top: 0;
   background: #fff;
   color: #333;
   padding: var(--size-4) var(--size-5);
@@ -44,6 +45,9 @@ export default {
   &__list {
     display: flex;
     gap: var(--size-4);
+  }
+  &__list-item {
+    text-align: center;
   }
   &__button {
     width: 25%;

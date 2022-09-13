@@ -428,7 +428,7 @@ export default {
 $country-color-default: #939dd0;
 
 .large-masses-of-water {
-  fill: $country-color-default;
+  fill: transparent;
 }
 .ocean {
   fill: #E4F9F5;
