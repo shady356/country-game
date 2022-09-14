@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background: #E4F9F5;
-  color: #616B9C;
+  color: #4a5171;
   font-family: 'Passion One', cursive;
   overscroll-behavior: contain;
 }
