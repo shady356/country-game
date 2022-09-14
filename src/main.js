@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import VueI18n from 'vue-i18n'
+
+Vue.use(VueI18n)
+
 Vue.config.productionTip = false
 
 new Vue({

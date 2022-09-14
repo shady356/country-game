@@ -13,10 +13,10 @@
     </div>
     <BaseTabs class="select-view-tabs">
       <BaseTab :active="isTabSelected(0)" @click="selectTab(0)">
-        Kart
+        {{$store.state.play.MAP}}
       </BaseTab>
       <BaseTab :active="isTabSelected(1)" @click="selectTab(1)">
-        Liste
+        {{$store.state.play.LIST}}
       </BaseTab>
     </BaseTabs>
   </div>

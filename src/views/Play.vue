@@ -10,7 +10,7 @@
           class="footer__button"
           @click="submitAnswer()"
         >
-          Svar
+        {{$store.state.play.ANSWER}}
         </BaseButton>
       </div>
     </div>

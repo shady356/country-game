@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <img src="@/assets/app-logo.svg" class="app-logo" alt="app-logo">
-    <p class="font-title">EUROPA-QUIZ</p>
-    <p class="font-title-2">Kan du navnet på alle<br>landende i Europa?</p>
+    <p class="font-title">{{$store.state.home.MAIN_TITLE}}</p>
+    <p class="font-title-2">{{$store.state.home.SUB_TITLE}}</p>
     <ul class="menu">
       <router-link :to="{name: 'Play'}" tag="li" class="menu__option">
-        <BaseButton size="large" theme="cta">Start spill</BaseButton>
+        <BaseButton size="large" theme="cta">{{$store.state.home.START_GAME}}</BaseButton>
       </router-link>
       <router-link :to="{name: 'Play'}" tag="li" class="menu__option">
-        <BaseButton>Beste resultater</BaseButton>
+        <BaseButton>{{$store.state.home.BEST_RESULTS}}</BaseButton>
       </router-link>
       <router-link :to="{name: 'Play'}" tag="li" class="menu__option">
-        <BaseButton>Instillinger</BaseButton>
+        <BaseButton>{{$store.state.home.SETTINGS}}</BaseButton>
       </router-link>
     </ul>
   </div>

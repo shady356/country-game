@@ -1,11 +1,11 @@
 <template>
   <header class="header">
     <ul class="header__list">
-      <li class="header__list-item"><div>POENG</div>{{correct * 100}}</li>
-      <li class="header__list-item"><div>RIKTIGE</div>{{correct}}/{{mapFlag.length}}</li>
+      <li class="header__list-item"><div>{{$store.state.play.POINTS}}</div>{{correct * 100}}</li>
+      <li class="header__list-item"><div>{{$store.state.play.CORRECT}}</div>{{correct}}/{{mapFlag.length}}</li>
     </ul>
     <BaseButton class="header__button" theme="cta">
-      Ferdig
+      {{$store.state.play.FINISHED}}
     </BaseButton>
   </header>
 </template>
