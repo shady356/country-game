@@ -1,11 +1,16 @@
 <template>
   <header class="header">
     <ul class="header__list">
-      <li class="header__list-item"><div>{{$store.state.play.POINTS}}</div>{{correct * 100}}</li>
-      <li class="header__list-item"><div>{{$store.state.play.CORRECT}}</div>{{correct}}/{{mapFlag.length}}</li>
+      <li class="header__list-item">
+        <div>{{$store.state.locale.play.POINTS}}</div>{{correct * 100}}
+      </li>
+      <li class="header__list-item">
+        <div>{{$store.state.locale.play.CORRECT}}</div>
+        {{correct}}/{{mapFlag.length}}
+      </li>
     </ul>
     <BaseButton class="header__button" theme="cta">
-      {{$store.state.play.FINISHED}}
+      {{$store.state.locale.play.FINISHED}}
     </BaseButton>
   </header>
 </template>
@@ -46,9 +51,11 @@ export default {
     display: flex;
     gap: var(--size-4);
   }
+
   &__list-item {
     text-align: center;
   }
+
   &__button {
     width: 25%;
   }

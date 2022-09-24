@@ -1,25 +1,28 @@
-.font-label {
-  font-family: 'Passion One', cursive;
-  font-size: var(--size-4);
-  text-transform: uppercase;
-  font-weight: 400;
+:root {
+  --default-font-family: 'Passion One', cursive;
 }
-.font-title {
-  font-family: 'Passion One', cursive;
-  font-size: var(--size-8);
-  text-transform: uppercase;
+
+.font-label {
+  font-family: inherit;
   font-weight: 400;
+  font-size: var(--size-4);
+}
+
+.font-title {
+  font-family: inherit;
+  font-weight: 900;
+  font-size: var(--size-8);
   letter-spacing: .5px;
 }
+
 .font-title-2 {
-  font-family: 'Passion One', cursive;
+  font-family: inherit;
+  font-weight: 800;
   font-size: var(--size-6);
-  text-transform: uppercase;
-  font-weight: 400;
 }
+
 .font-title-3 {
-  font-family: 'Passion One', cursive;
+  font-family: inherit;
+  font-weight: 800;
   font-size: var(--size-5);
-  text-transform: uppercase;
-  font-weight: 400;
 }

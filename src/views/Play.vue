@@ -4,13 +4,10 @@
       <Header :mapFlag="mapFlag" />
       <GameMap :mapFlag="mapFlag" />
       <div class="footer">
-        <BaseInput class="footer__input" v-model.trim="answerValue" ref="input"/>
-        <BaseButton
-          theme="cta"
-          class="footer__button"
-          @click="submitAnswer()"
-        >
-        {{$store.state.play.ANSWER}}
+        <BaseInput class="footer__input" v-model.trim="answerValue"
+          ref="input" />
+        <BaseButton theme="cta" class="footer__button" @click="submitAnswer()">
+          {{$store.state.locale.play.ANSWER}}
         </BaseButton>
       </div>
     </div>
@@ -107,9 +104,11 @@ export default {
   gap: var(--size-4);
   padding: 0 var(--size-4);
   margin-top: var(--size-4);
+
   &__input {
     width: 80%;
   }
+
   &__button {
     width: 20%;
   }

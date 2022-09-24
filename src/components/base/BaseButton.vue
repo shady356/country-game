@@ -1,5 +1,5 @@
 <template>
-  <button :class="['base-button', sizeStyle, shapeStyle, themeStyle]"
+  <button :class="['base-button no-select', sizeStyle, shapeStyle, themeStyle]"
     @click="click">
     <slot />
   </button>
@@ -47,7 +47,7 @@ export default {
 .base-button {
   display: flex;
   border: 1px solid transparent;
-  font-family: 'Passion One', cursive;
+  font-family: var(--default-font-family);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -92,6 +92,7 @@ export default {
   }
 
   &:active {
+    filter: brightness(1.03);
     transform: scale(1.05) translateZ(0);
     transition: transform 100ms ease-in;
   }

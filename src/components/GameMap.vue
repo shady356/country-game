@@ -1,22 +1,16 @@
 <template>
   <div class="game">
     <div class="map-wrapper">
-      <EuropeMap
-        v-show="isMapView"
-        class="map-wrapper__map"
-        :countryCodeMap="countryCodeMap"
-      />
-      <MapListView
-        v-show="isListView"
-        :countries="mapFlag"
-      />
+      <EuropeMap v-show="isMapView" class="map-wrapper__map"
+        :countryCodeMap="countryCodeMap" />
+      <MapListView v-show="isListView" :countries="mapFlag" />
     </div>
     <BaseTabs class="select-view-tabs">
       <BaseTab :active="isTabSelected(0)" @click="selectTab(0)">
-        {{$store.state.play.MAP}}
+        {{$store.state.locale.play.MAP}}
       </BaseTab>
       <BaseTab :active="isTabSelected(1)" @click="selectTab(1)">
-        {{$store.state.play.LIST}}
+        {{$store.state.locale.play.LIST}}
       </BaseTab>
     </BaseTabs>
   </div>
@@ -75,15 +69,17 @@ export default {
   flex-direction: column;
   align-items: center;
   gap: var(--size-4);
+
   .map-wrapper {
     width: 100%;
     height: 450px;
     overflow: hidden;
+
     &__map {
       width: 100%;
-      background: orange;
     }
   }
+
   .select-view-tabs {
     width: fit-content;
   }
