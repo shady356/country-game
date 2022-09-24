@@ -40,8 +40,7 @@ export default {
 .header {
   position: sticky;
   top: 0;
-  background: #fff;
-  color: #333;
+  background: var(--color-base);
   padding: var(--size-4) var(--size-5);
   display: flex;
   justify-content: space-between;

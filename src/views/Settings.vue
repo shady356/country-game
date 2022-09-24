@@ -20,14 +20,16 @@ export default {
 <style scoped lang="scss">
 .settings {
   margin: 4%;
+
   &__title {
     text-align: center;
     margin-bottom: var(--size-7);
   }
+
   .section {
-    background: #fff;
+    background: var(--color-base);
     border-radius: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--color-border);
     padding: 20px;
   }
 }

@@ -40,15 +40,17 @@ export default {
   flex-wrap: wrap;
   gap: var(--size-4);
   margin: var(--size-4);
+
   &__item {
     display: flex;
     align-items: center;
     gap: var(--size-3);
-    background: #f5f5ff;
-    border: 1px solid #ddf;
+    background: var(--color-base-light);
+    border: 1px solid var(--color-border);
     border-radius: var(--size-7);
     padding: var(--size-4) var(--size-5);
   }
+
   &__item-image {
     display: block;
     border-radius: var(--size-2);

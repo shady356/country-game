@@ -56,7 +56,9 @@ export default {
   transition: transform 100ms ease-out;
   -webkit-font-smoothing: subpixel-antialiased;
   backface-visibility: hidden;
+  outline: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   &--size-small {
     padding: var(--size-1) var(--size-3);
@@ -81,18 +83,19 @@ export default {
   }
 
   &--theme-cta {
-    background-color: #0be5c8;
-    color: #084b42;
+    background: var(--color-cta);
+    color: var(--color-cta-text);
+    border: none;
   }
 
   &--theme-standard {
-    background-color: #fff;
-    border-color: #D4D9EF;
-    color: #616B9C;
+    background: var(--color-base);
+    border-color: var(--color-border);
+    color: var(--color-text);
   }
 
   &:active {
-    filter: brightness(1.03);
+    filter: brightness(1.04);
     transform: scale(1.05) translateZ(0);
     transition: transform 100ms ease-in;
   }

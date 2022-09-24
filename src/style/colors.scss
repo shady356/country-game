@@ -1,3 +1,33 @@
 :root {
-  --color-cta: #0fa;
+  --color-body: #e7f2f9;
+  ;
+  --color-base: #fff;
+  --color-base-light: #f5f5f5;
+
+  --color-map-country: #939dd0;
+  --color-map-country-active: #35c7b3;
+
+  --color-cta: linear-gradient(#47f5de, #0be5c8);
+
+  --color-cta-text: #015045;
+
+  --color-text: #4a5171;
+  --color-text-light: #616B9C;
+
+  --color-border: #d4d9ef;
 }
+
+/* :root {
+  --color-body: #E4F9F5;
+
+  --color-map-country: #939dd0;
+  --color-map-country-active: #35c7b3;
+
+  --color-cta: #0be5c8;
+  --color-cta-text: #084b42;
+
+  --color-text: #4a5171;
+  --color-text-light: #616B9C;
+
+  --color-border: #d4d9ef;
+} */

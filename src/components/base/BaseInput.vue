@@ -22,13 +22,15 @@ export default {
 
 <style scoped lang="scss">
 .base-input {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: var(--color-base);
+  border: 1px solid var(--color-border);
   border-radius: var(--size-3);
   padding: var(--size-3) var(--size-5);
+  color: var(--color-text);
   font-family: inherit;
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  outline-style: none;
 }
 </style>

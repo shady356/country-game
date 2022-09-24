@@ -29,16 +29,18 @@ export default {
     }
   }
 }
+
 .app-logo {
   margin-top: var(--size-9);
 }
+
 .font-title {
   margin-top: var(--size-5);
   margin-bottom: var(--size-4);
-  color: #06587C;
-}
-.font-title-2 {
-  color: #06587C;
+  color: var(--color-text);
 }
 
+.font-title-2 {
+  color: var(--color-text);
+}
 </style>

@@ -1,6 +1,7 @@
 <template>
   <ul class="country-list">
-    <li v-for="(country, index) in countries" class="country-list__item" :key="country.code">
+    <li v-for="(country, index) in countries" class="country-list__item"
+      :key="country.code">
       <div>
         {{getListNumber(index +1)}}
       </div>
@@ -40,16 +41,18 @@ export default {
   border-radius: 10px;
   overflow-y: scroll;
   height: 420px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
+
   &__item {
     display: flex;
     padding: var(--size-4);
     gap: var(--size-4);
-    background: #fff;
+    background: var(--color-base);
     font-size: var(--size-4);
   }
+
   &__item:nth-child(odd) {
-    background: #f5f5f5;
+    background: var(--color-base-light);
   }
 }
 </style>

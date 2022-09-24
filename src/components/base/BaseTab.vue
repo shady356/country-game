@@ -25,15 +25,15 @@ export default {
 .base-tab {
   font-family: inherit;
   padding: var(--size-2) var(--size-5);
-  color: #616B9C;
+  color: var(--color-text-light);
   text-transform: uppercase;
   border: none;
-  background-color: transparent;
+  background: transparent;
   border-radius: var(--size-6);
 
   &--active {
-    background-color: #0be5c8;
-    color: #084b42;
+    background: var(--color-cta);
+    color: var(--color-cta-text);
   }
 }
 </style>

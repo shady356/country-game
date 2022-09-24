@@ -10,16 +10,18 @@
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 body {
   font-family: var(--default-font-family);
   margin: 0;
   padding: 0;
-  background: #E4F9F5;
-  color: #4a5171;
+  background: var(--color-body);
+  color: var(--color-text);
   overscroll-behavior: contain;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 ul {
@@ -34,6 +36,6 @@ p {
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 </style>
