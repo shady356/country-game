@@ -1,7 +1,7 @@
 <template>
   <div>
     <div :key="cacheBust">
-      <Header :mapFlag="mapFlag" />
+      <Header :mapFlag="mapFlag" @gameOver="gameOver" />
       <GameMap :mapFlag="mapFlag" />
       <div class="footer">
         <BaseInput class="footer__input" v-model.trim="answerValue"
@@ -14,16 +14,18 @@
     <BaseToast v-show="isToast">
       {{toastText}}
     </BaseToast>
+    <GameOverModal v-if="isGameOver" />
   </div>
 </template>
 
 <script>
-import BaseInput from '@/components/base/BaseInput'
-import BaseButton from '@/components/base/BaseButton.vue'
-import GameMap from '@/components/GameMap.vue'
-import Header from '@/components/layout/Header.vue'
 import { countries } from '@/data/countries.js'
-import BaseToast from '../components/base/BaseToast.vue'
+import BaseButton from '@/components/base/BaseButton.vue'
+import BaseInput from '@/components/base/BaseInput'
+import BaseToast from '@/components/base/BaseToast.vue'
+import Header from '@/components/layout/Header.vue'
+import GameMap from '@/components/GameMap.vue'
+import GameOverModal from '@/components/GameOverModal.vue'
 export default {
   components: {
     GameMap,
@@ -31,14 +33,16 @@ export default {
     BaseInput,
     BaseButton,
     BaseToast,
+    GameOverModal,
   },
   data() {
     return {
       answerValue: '',
       mapFlag: [],
       mapLoaded: false,
-      cacheBust: 0,
       isToast: false,
+      isGameOver: false,
+      cacheBust: 0,
       toastText: '',
     }
   },
@@ -89,6 +93,9 @@ export default {
         this.isToast = false
         this.toastText = ''
       }, 3000)
+    },
+    gameOver() {
+      this.isGameOver = true
     },
   },
 }

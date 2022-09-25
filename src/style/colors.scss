@@ -1,20 +1,22 @@
 :root {
   --color-body: #e7f2f9;
   ;
-  --color-base: #fff;
-  --color-base-light: #f5f5f5;
+  --color-base: #ffffff22;
+  --color-base-light: #eeeeee44;
 
-  --color-map-country: #939dd0;
-  --color-map-country-active: #35c7b3;
+  --color-map-country: hsla(0, 0%, 100%, 0.25);
+  --color-map-country-stroke: hsla(0, 0%, 100%, 0.15);
 
-  --color-cta: linear-gradient(#47f5de, #0be5c8);
+  --color-map-country-active: hsla(170, 90%, 55%, 0.75);
+  --color-map-country-stroke-active: hsla(160, 90%, 40%, 0.75);
 
-  --color-cta-text: #015045;
+  --color-cta: linear-gradient(hsl(170, 1000%, 60%), hsl(160, 90%, 55%));
+  --color-cta-text: hsl(160, 80%, 15%);
 
-  --color-text: #4a5171;
-  --color-text-light: #616B9C;
+  --color-text: #ffffff;
+  --color-text-light: #bdc5ed;
 
-  --color-border: #d4d9ef;
+  --color-border: #dddddd44;
 }
 
 /* :root {

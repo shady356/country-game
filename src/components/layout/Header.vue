@@ -9,7 +9,7 @@
         {{correct}}/{{mapFlag.length}}
       </li>
     </ul>
-    <BaseButton class="header__button" theme="cta">
+    <BaseButton class="header__button" theme="cta" @click="gameOver">
       {{$store.state.locale.play.FINISHED}}
     </BaseButton>
   </header>
@@ -31,6 +31,11 @@ export default {
     correct() {
       const correct = this.mapFlag.filter(country => country.found)
       return correct.length
+    },
+  },
+  methods: {
+    gameOver() {
+      this.$emit('gameOver')
     },
   },
 }

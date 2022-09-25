@@ -10,14 +10,19 @@
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
+  font-weight: 900;
+  height: 100vh;
 }
+
+$color1: hsl(260, 100%, 50%);
+$color2: hsl(255, 100%, 60%);
 
 body {
   font-family: var(--default-font-family);
   margin: 0;
   padding: 0;
-  background: var(--color-body);
+  //background: linear-gradient(#163f9d, #4c0ec0, #163f9d);
+  background: linear-gradient($color1, $color2, $color1);
   color: var(--color-text);
   overscroll-behavior: contain;
   max-width: 1024px;
@@ -33,6 +38,10 @@ ul {
 p {
   margin: 0;
   line-height: 1;
+}
+
+a {
+  text-decoration: none;
 }
 
 * {

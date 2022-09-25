@@ -33,4 +33,8 @@ export default {
   text-transform: uppercase;
   outline-style: none;
 }
+
+::placeholder {
+  color: var(--color-text-light);
+}
 </style>

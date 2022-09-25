@@ -48,6 +48,7 @@ export default {
   display: flex;
   border: 1px solid transparent;
   font-family: var(--default-font-family);
+  font-weight: 900;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -55,10 +56,10 @@ export default {
   transform: perspective(1px);
   transition: transform 100ms ease-out;
   -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-tap-highlight-color: transparent;
   backface-visibility: hidden;
   outline: none;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
 
   &--size-small {
     padding: var(--size-1) var(--size-3);
