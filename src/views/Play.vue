@@ -3,10 +3,11 @@
     <div :key="cacheBust">
       <Header :mapFlag="mapFlag" @gameOver="gameOver" />
       <GameMap :mapFlag="mapFlag" />
-      <div class="footer">
-        <BaseInput class="footer__input" v-model.trim="answerValue"
-          ref="input" />
-        <BaseButton theme="cta" class="footer__button" @click="submitAnswer()">
+      <div :class="['footer', {'footer--active': isAnswerButtonVisible}]">
+        <BaseInput class="footer__input" v-model.trim="answerValue" ref="input"
+          @onFocus="showAnswerButton" @onBlur="hideAnswerButton" />
+        <BaseButton v-if="isAnswerButtonVisible" theme="cta" size="large"
+          class="footer__button" @click="submitAnswer()">
           {{$store.state.locale.play.ANSWER}}
         </BaseButton>
       </div>
@@ -44,12 +45,19 @@ export default {
       isGameOver: false,
       cacheBust: 0,
       toastText: '',
+      isAnswerButtonVisible: false,
     }
   },
   created() {
     this.setMapFlag()
   },
   methods: {
+    showAnswerButton() {
+      this.isAnswerButtonVisible = true
+    },
+    hideAnswerButton() {
+      this.isAnswerButtonVisible = false
+    },
     setMapFlag() {
       this.mapFlag = countries().filter(country => country.group === 'europe')
       this.mapFlag.map(country => Object.assign(country, { found: false }))
@@ -103,21 +111,35 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  position: sticky;
-  bottom: 10px;
+  position: fixed;
+  bottom: 0;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  gap: var(--size-4);
-  padding: 0 var(--size-4);
-  margin-top: var(--size-4);
+  gap: var(--size-8);
+  padding: var(--size-7);
+
+  &--active {
+    height: 100vh;
+    background: #00000077;
+    padding: 0 var(--size-7);
+
+    .footer__input {
+      padding-top: 50%;
+    }
+  }
 
   &__input {
-    width: 80%;
+    display: flex;
+    width: 100%;
   }
 
   &__button {
-    width: 20%;
+    position: relative;
+    display: flex;
+    width: 30vw;
+    z-index: 1;
   }
 }
 </style>

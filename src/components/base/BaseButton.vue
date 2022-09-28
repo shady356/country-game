@@ -75,6 +75,11 @@ export default {
     font-size: var(--size-6);
   }
 
+  &--size-huge {
+    padding: var(--size-5) var(--size-9);
+    font-size: var(--size-7);
+  }
+
   &--shape-round {
     border-radius: var(--size-9);
   }

@@ -4,19 +4,19 @@
   --color-base: #ffffff22;
   --color-base-light: #eeeeee44;
 
-  --color-map-country: hsla(0, 0%, 100%, 0.25);
-  --color-map-country-stroke: hsla(0, 0%, 100%, 0.15);
+  --color-map-country: hsla(0, 0%, 100%, .6);
+  --color-map-country-stroke: hsla(250, 100%, 50%, .5);
 
-  --color-map-country-active: hsla(170, 90%, 55%, 0.75);
+  --color-map-country-active: hsla(170, 90%, 55%, 1);
   --color-map-country-stroke-active: hsla(160, 90%, 40%, 0.75);
 
-  --color-cta: linear-gradient(hsl(170, 1000%, 60%), hsl(160, 90%, 55%));
+  --color-cta: linear-gradient(hsl(170, 100%, 60%), hsl(160, 90%, 55%));
   --color-cta-text: hsl(160, 80%, 15%);
 
   --color-text: #ffffff;
-  --color-text-light: #bdc5ed;
+  --color-text-light: #ffffffdd;
 
-  --color-border: #dddddd44;
+  --color-border: #ffffff66;
 }
 
 /* :root {
