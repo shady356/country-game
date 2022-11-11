@@ -43,21 +43,15 @@ export default {
   border: none;
   border-bottom: 1px solid var(--color-border);
   //border-radius: var(--size-3);
-  padding: var(--size-3) var(--size-5);
+  padding: var(--size-5) var(--size-8);
   color: var(--color-text);
   font-family: inherit;
-  font-size: 16px;
+  font-size: 22px;
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
   outline-style: none;
   transition: font-size 200ms ease-out;
-
-  &--focus {
-    padding: var(--size-5) var(--size-8);
-    font-size: 22px;
-    transition: font-size 200ms ease-in;
-  }
 }
 
 ::placeholder {

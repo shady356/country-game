@@ -1,15 +1,13 @@
 <template>
-  <div>
-    <transition appear name="fade">
-      <aside class="modal-mask">
-        <transition appear name="fade">
-          <div class="modal-card">
-            <slot />
-          </div>
-        </transition>
-      </aside>
-    </transition>
-  </div>
+  <transition appear name="fade">
+    <aside class="modal-mask">
+      <transition appear name="fade">
+        <div class="modal-card">
+          <slot />
+        </div>
+      </transition>
+    </aside>
+  </transition>
 </template>
 
 <script>
