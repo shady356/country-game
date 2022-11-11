@@ -1,28 +1,30 @@
 <template>
   <div class="locales-list">
-    <button class="locales-list__item" @click="setLocale('no')">
-      <img class="locales-list__item-image" :src="getFlag('no')" alt="no">
-      <div class="locales-list__item-text font-title-3">
+    <BaseButton class="locales-list__item" @click="setLocale('no')">
+      <img class="locales-list__item-image" :src="getFlag('no')" alt="">
+      <div>
         Norsk
       </div>
-    </button>
-    <button class="locales-list__item" @click="setLocale('dk')">
-      <img class="locales-list__item-image" :src="getFlag('dk')" alt="dk">
-      <div class="locales-list__item-text font-title-3">
+    </BaseButton>
+    <BaseButton class="locales-list__item" @click="setLocale('dk')">
+      <img class="locales-list__item-image" :src="getFlag('dk')" alt="">
+      <div>
         Dansk
       </div>
-    </button>
-    <button class="locales-list__item" @click="setLocale('us')">
-      <img class="locales-list__item-image" :src="getFlag('us')" alt="us">
-      <div class="locales-list__item-text font-title-3">
+    </BaseButton>
+    <BaseButton class="locales-list__item" @click="setLocale('us')">
+      <img class="locales-list__item-image" :src="getFlag('us')" alt="">
+      <div>
         English (US)
       </div>
-    </button>
+    </BaseButton>
   </div>
 </template>
 
 <script>
+import BaseButton from '../base/BaseButton.vue'
 export default {
+  components: { BaseButton },
   methods: {
     getFlag(code) {
       return `https://raw.githubusercontent.com/lipis/flag-icons/156838a296451807ba33c4c1c28f491e0fa19e7b/flags/4x3/${code}.svg`
@@ -40,15 +42,12 @@ export default {
   flex-wrap: wrap;
   gap: var(--size-4);
   margin: var(--size-4);
+  font-family: inherit;
 
   &__item {
     display: flex;
     align-items: center;
     gap: var(--size-3);
-    background: var(--color-base-light);
-    border: 1px solid var(--color-border);
-    border-radius: var(--size-7);
-    padding: var(--size-4) var(--size-5);
   }
 
   &__item-image {

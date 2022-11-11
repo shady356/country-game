@@ -3,13 +3,13 @@
 }
 
 .font-label {
-  font-family: inherit;
-  font-weight: 900;
+  font-family: var(--default-font-family);
+  font-weight: 400;
   font-size: var(--size-4);
 }
 
 .font-title {
-  font-family: inherit;
+  font-family: var(--default-font-family);
   font-weight: 900;
   font-size: var(--size-8);
   letter-spacing: .5px;
@@ -17,14 +17,14 @@
 }
 
 .font-title-2 {
-  font-family: inherit;
+  font-family: var(--default-font-family);
   font-weight: 900;
   font-size: var(--size-6);
   text-transform: uppercase;
 }
 
 .font-title-3 {
-  font-family: inherit;
-  font-weight: 900;
+  font-family: var(--default-font-family);
+  font-weight: 400;
   font-size: var(--size-5);
 }

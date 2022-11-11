@@ -48,7 +48,6 @@ export default {
   display: flex;
   border: 1px solid transparent;
   font-family: var(--default-font-family);
-  font-weight: 900;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -63,16 +62,19 @@ export default {
 
   &--size-small {
     padding: var(--size-1) var(--size-3);
+    font-weight: 400;
   }
 
   &--size-medium {
     padding: var(--size-3) var(--size-6);
     font-size: var(--size-5);
+    font-weight: 400;
   }
 
   &--size-large {
     padding: var(--size-4) var(--size-8);
     font-size: var(--size-6);
+    font-weight: 900;
   }
 
   &--size-huge {

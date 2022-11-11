@@ -1,6 +1,6 @@
 <template>
   <input :class="['base-input', {'base-input--focus': isFocused}]" type="text"
-    placeholder="Skriv land" spellcheck='false' autocomplete="false"
+    ref="input" placeholder="Skriv land" spellcheck='false' autocomplete="false"
     @input="updateValue" @focus="onFocus" @blur="onBlur" />
 </template>
 
@@ -17,6 +17,9 @@ export default {
     return {
       isFocused: false,
     }
+  },
+  mounted() {
+    this.$refs.input.focus()
   },
   methods: {
     updateValue(event) {

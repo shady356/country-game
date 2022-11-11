@@ -14,14 +14,13 @@ html {
   height: 100vh;
 }
 
-$color1: hsl(250, 100%, 50%);
-$color2: hsl(280, 100%, 50%);
+$color1: hsl(222, 75%, 35%);
+$color2: hsl(258, 71%, 52%);
 
 body {
   font-family: var(--default-font-family);
   margin: 0;
   padding: 0;
-  //background: linear-gradient(#163f9d, #4c0ec0, #163f9d);
   background: linear-gradient($color1, $color2);
   color: var(--color-text);
   overscroll-behavior: contain;

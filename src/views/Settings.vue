@@ -20,9 +20,9 @@ export default {
 <style scoped lang="scss">
 .settings {
   margin: 4%;
+  text-align: center;
 
   &__title {
-    text-align: center;
     margin-bottom: var(--size-7);
   }
 
