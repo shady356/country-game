@@ -65,7 +65,6 @@ export default {
       })
     },
     submitAnswer(answerValue) {
-      console.log(answerValue)
       const answer = answerValue.toLowerCase()
       if (answer.length > 0) {
         const country = this.isAnswerCorrect(answer)
